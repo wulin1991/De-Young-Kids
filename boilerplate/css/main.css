@@ -1,12 +1,13 @@
 /*
  *
- * Author:
- * Something cool:
+ * Author: jsouth
+ * testing git:
  *
  */
 
 html {
-    color: #999;
+    background: #000;
+    color: #fff;
     font-size: 1em;
     line-height: 1.5;
 }
@@ -14,6 +15,12 @@ body {
     padding: 150px;
     text-align: center;
 }
+/*
+ *
+ * welcome info
+ *
+ *
+ */
 .welcome {
     -webkit-animation: opac 1.5s;
     animation: opac 1.5s
