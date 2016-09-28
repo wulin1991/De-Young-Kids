@@ -1,0 +1,64 @@
+/*
+ *
+ * Author: yourname-here
+ * Video background tutorial :
+ *
+ */
+
+html {
+    background: #000;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.5;
+}
+body {
+    text-align: center;
+}
+
+/*.container {}*/
+
+
+/*
+ *
+ * sample message
+ *
+ *
+ */
+
+.welcome {
+    -webkit-animation: opac 5.5s;
+    animation: opac 5.5s z-index: 1;
+}
+@-webkit-keyframes opac {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* this is not ideal, but you can force the video to be behind all elements with the z-index propery*/
+    min-width: 100%;
+    /* force height - this is temporary, we can do better*/
+    min-height: 100%;
+    /* force height - this is temporary, we can do better*/
+    width: auto;
+    /* force height - this is temporary, we can do better*/
+    height: auto;
+    /* force height - this is temporary, we can do better*/
+    -webkit-animation: opac 1.5s;
+    animation: opac 1.5s z-index: 1;
+    z-index: -1;
+}
